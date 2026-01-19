@@ -1,0 +1,255 @@
+cv:
+  name: Raunak Burrows
+  location: London, UK
+  email: raunakburrows@gmail.com
+  phone: "+44 7442124987"
+  website: https://github.com/burrows99
+  social_networks:
+    - network: LinkedIn
+      username: "[raunak-burrows](https://linkedin.com/in/raunak-burrows/)"
+    - network: GitHub
+      username: burrows99
+    - network: Leetcode
+      username: "[raunakburrows](https://leetcode.com/raunakburrows/)"
+  
+  sections:
+    summary:
+      - "Full Stack Engineer with 5.5+ years building production-grade Next.js, React, and TypeScript applications across healthcare, SaaS, and fintech platforms. Expert in Next.js App Router, Server Components, and complex PostgreSQL database design with RLS policies. Proven track record architecting AI-powered document processing pipelines, data-intensive dashboards, and E2E testing suites with Cypress/Playwright. Deep experience with Supabase, LLM integrations (OpenAI/Anthropic), and financial application development. London-based with immediate availability for on-site work."
+    
+    technical_skills:
+      - label: Frontend Stack (Core Expertise)
+        details: Next.js 14+ (App Router, Server Components, Server Actions), React 18+ with TypeScript, TailwindCSS, Shadcn UI, Responsive Design, Modern Component Patterns
+      - label: Backend & Database
+        details: Node.js (Express.js, Nest.js, FastAPI), PostgreSQL (Complex queries, CTEs, Joins, Aggregations, Custom Functions, Triggers, RLS policies), Supabase (PostgREST API, Auth, Storage), MySQL, MongoDB, Redis
+      - label: AI & Document Processing
+        details: LangChain, OpenAI API, Anthropic API, AWS Bedrock, LLM pipelines, RAG (Retrieval-Augmented Generation), Vector embeddings (FAISS, Pinecone), Document extraction (PDF, CSV, XLSX), Semantic search
+      - label: Data Visualization & Charts
+        details: ApexCharts, Chart.js, Recharts, D3.js, Financial metrics visualization, Real-time dashboards, Interactive data displays
+      - label: Testing & Quality Assurance
+        details: Cypress (E2E testing), Playwright, Jest, Vitest, React Testing Library, Pytest, Test automation, Data validation, Audit queries
+      - label: Programming Languages
+        details: TypeScript/JavaScript (Advanced), Python (NumPy, Pandas, asyncio), Java, SQL
+      - label: DevOps & Cloud
+        details: Docker, Kubernetes, AWS (EC2, ECS, EKS, Bedrock), Vercel, GitHub Actions, CI/CD pipelines, Azure (OpenAI Service, Functions)
+      - label: Financial/Data-Intensive Applications
+        details: Multi-currency handling, Portfolio management, Performance metrics, Financial calculations, Data integrity checks, Bulk data imports, Complex aggregations
+    
+    experience:
+      - company: "[Aixolotl](https://aixolotl.com/) (Stealth Startup)"
+        position: Full Stack Engineer (AI Focus)
+        start_date: 2025-10
+        end_date: 2026-02
+        location: Switzerland (Remote)
+        highlights:
+          - "**Built AIxChat MVP** — Next.js 14 + TypeScript chat-first platform generating context-aware business UIs (Kanban, Gantt, Data Grid) from natural language. Architected App Router structure with Server Components, dynamic layout engine, and Vercel AI SDK integration achieving seamless streaming responses."
+          - "**Engineered AI document processing pipeline** with LangChain, OpenAI/Anthropic APIs handling document ingestion, semantic chunking, and vector embeddings. Implemented custom validation, error handling, and bulk processing for enterprise-scale deployments. Integrated with Jira Cloud and GitHub via MCP protocol for real-time data synchronization."
+          - "**Designed PostgreSQL schema** with multi-tenant user isolation, RLS policies, and optimized queries for chat history, document metadata, and canvas configurations. Created custom functions and triggers for data consistency across distributed system."
+          - "**Built React + TypeScript frontend** with Shadcn UI components, TailwindCSS styling, and complex state management (Zustand). Implemented responsive layouts, real-time updates via WebSockets, and drag-and-drop interfaces for business component configuration."
+          - "**Established testing infrastructure** with Vitest unit tests and integration test suites. Implemented CI/CD via GitHub Actions with automated deployments to Vercel, achieving **zero-downtime** releases."
+          - "**Tech Stack**: Next.js 14, React 18, TypeScript, TailwindCSS, Shadcn, PostgreSQL, Supabase, LangChain, OpenAI API, Anthropic API, Vercel AI SDK, Docker, GitHub Actions"
+      
+      - company: "[Turing](https://www.turing.com/)"
+        position: Full Stack Developer (AI/ML Focus)
+        start_date: 2024-06
+        end_date: 2025-06
+        location: United States (Remote)
+        highlights:
+          - "**Architected enterprise integration platform** using Node.js, TypeScript, and Salesforce APIs handling document workflows with DocuSign integration. Built React dashboards for document tracking, approval chains, and audit trails with real-time status updates."
+          - "**Designed LLM evaluation pipelines** for Grok (xAI) with automated testing frameworks measuring response quality via BLEU/ROUGE metrics and human evaluation scores. Enhanced relevance by **25%** through prompt engineering and fine-tuning workflows."
+          - "**Built PostgreSQL-backed data warehouse** for ML training data with complex queries, materialized views, and data validation logic. Implemented audit queries verifying data integrity across 10M+ records."
+          - "**Tech Stack**: Node.js, TypeScript, React, PostgreSQL, Python, LangChain, OpenAI API, Salesforce, AWS EC2, Bitbucket, Jira"
+      
+      - company: "[The Kind Citizen](https://www.thekindcitizen.com/)"
+        position: Founding Full Stack Engineer
+        start_date: 2024-01
+        end_date: 2024-03
+        location: India (Remote)
+        highlights:
+          - "**Launched events booking platform** in **2 months** using Next.js 13, TypeScript, and Vercel serverless architecture. Designed PostgreSQL schema with ticket locking, concurrency control (optimistic locking), and transaction management for **1000+ concurrent users**."
+          - "**Built responsive frontend** with React, TailwindCSS, and reusable component library adopted across all modules. Implemented search, filtering, and export capabilities for event directories with ApexCharts-based analytics dashboards."
+          - "**Created E2E test suite** with Playwright covering authentication flows, booking workflows, payment processing, and admin operations. Achieved **95%+ test coverage** on critical paths."
+      
+      - company: "[Sciometrix](https://www.sciometrix.com/)"
+        position: Software Engineer
+        start_date: 2023-07
+        end_date: 2025-04
+        location: Royal Oak, Michigan, US (Remote)
+        highlights:
+          - "**Engineered HIPAA-compliant document processing** system handling EDI X12 formats (837/835/270/271) in Java + Spring Boot. Built custom parsers, validators, and entity extraction logic reducing claim errors by **~30%** and delivering **$1,400/month** cost savings."
+          - "**Built production RAG chatbot** using FastAPI, OpenAI API, and LlamaIndex with vector embeddings (FAISS) for medical document understanding. Conducted A/B testing with 12 physicians demonstrating **40% increase** in answer relevance via automated metrics (BLEU/ROUGE) and user surveys."
+          - "**Designed PostgreSQL architecture** with time-series partitioning, materialized views, and optimized audit queries cutting analytics response times by **~40%**. Created custom functions for financial calculations, data validation, and compliance reporting."
+          - "**Shipped React + TailwindCSS dashboards** with real-time claim status, billing KPIs, and interactive ApexCharts visualizations. Built Node.js BFF with Redis caching for high-read operational panels serving **500+ concurrent users**."
+          - "**Implemented CI/CD pipeline** with GitHub Actions → Docker → AWS EKS including per-PR preview environments, Playwright E2E tests, and automated smoke tests achieving **99.9% uptime**."
+      
+      - company: "[QuestionPro Pvt. Ltd.](https://www.questionpro.com/)"
+        position: Full Stack Developer
+        start_date: 2022-08
+        end_date: 2023-07
+        location: "[Pune](https://www.google.com/maps/place/QuestionPro+Pvt+Ltd/data=!4m2!3m1!19sChIJo0O0ojy_wjsRVd69-e5YuFw) (Remote)"
+        highlights:
+          - "**Won 2nd place hackathon** building RAG-based knowledge chatbot with vector embeddings reducing false positives by **~40%**. Implemented document chunking, semantic search, and context-aware response generation using LangChain and OpenAI API. [LinkedIn Mention](https://www.linkedin.com/feed/update/urn:li:activity:7061599326224924672/)"
+          - "**Modernized core platform to Next.js 13 (SSR/ISR)** + TailwindCSS improving Lighthouse scores and reducing Zendesk UI tickets by **~45%**. Migrated legacy dashboards to TypeScript achieving type safety across 50K+ LOC codebase."
+          - "**Built FastAPI microservices** for LLM-powered text analysis (summarization, sentiment, keywords). Orchestrated with Node.js abstraction layer enabling dynamic model switching (OpenAI vs internal). Deployed to production serving [Genie AI](https://www.questionpro.com/help/genie-overview.html) with **1M+ MAU**."
+          - "**Developed React + Spring Boot analytics platform** with drilldown capabilities, interactive Chart.js visualizations, and CSV/Excel export. Post-launch NPS improved **3.8→4.6/5** on survey analysis features."
+          - "**Created bulk data import APIs** (Node.js) handling CSV/XLSX parsing, validation, and error reporting for **100+ enterprise customers** with **~99.7% success rate** monitored via Metabase dashboards."
+      
+      - company: "[Infosys Ltd.](https://www.infosys.com/)"
+        position: Specialist Programmer
+        start_date: 2021-09
+        end_date: 2022-08
+        location: Bangalore (Remote)
+        highlights:
+          - "**Built high-performance Java microservices** for [eBay's retail platform](https://www.infosys.com/) using coroutines and stream processing, achieving **2× throughput** and reducing startup latency **4ms→2ms** via JVM profiling (JFR, JConsole)."
+          - "**Owned CI/CD pipeline** with GitHub Actions + Docker maintaining **99.9% uptime**. Raised test coverage **65%→90%** with JUnit 5, Mockito, JaCoCo through comprehensive E2E and integration test suites."
+    
+    "EXPERIENCE (INTERNSHIPS)":
+      - company: "[Google Summer of Code](https://summerofcode.withgoogle.com/)"
+        position: Contributor (Mentored by Google Engineer)
+        start_date: 2020-06
+        end_date: 2020-08
+        location: Bangalore (Remote)
+        highlights:
+          - "Extended 3D geometry processing modules in **C/C++** for BRL-CAD, improving rendering performance. [View Certificate](https://drive.google.com/file/d/1NKWErBCvjpk7keSzCEX-VcMk7XYlh8g8/view?usp=sharing)"
+    
+    key_projects:
+      - "**AIxChat Platform (Aixolotl, 2025)** — Next.js 14 + TypeScript application with App Router, Server Components, and dynamic canvas generation. PostgreSQL with RLS policies, LangChain document processing, real-time MCP integrations (Jira/GitHub). **Focus Areas:** Admin panel development, AI pipeline integration, client-facing dashboards."
+      - "**Healthcare Document Intelligence (Sciometrix, 2024)** — HIPAA-compliant EDI processing with custom parsers and RAG chatbot. PostgreSQL with complex queries, audit functions, and financial calculations. React dashboards with ApexCharts, Redis caching, E2E Playwright tests."
+      - "**Events Booking Platform (The Kind Citizen, 2024)** — Next.js + TypeScript with PostgreSQL ticket locking and concurrency control. Playwright E2E test suite covering authentication, booking workflows, and payment processing for 1000+ concurrent users."
+      - "**Enterprise RAG Chatbot (QuestionPro, 2023)** — LangChain-based knowledge system with vector embeddings, document chunking, and semantic search. Node.js orchestration layer, FastAPI microservices, bulk CSV/XLSX import validation."
+      - "**Open-Source MCP Automation** — Browser automation using LibreChat + Playwright-MCP with Node.js bridge. [GitHub](https://github.com/burrows99/Chat-Playwright) | [LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:7356798113082224642/)"
+    
+    awards_and_certifications:
+      - "**Technical Reviewer** | *[3D Web Development with Three.js & Next.js](https://bpbonline.com/products/3d-web-development-with-three-js-and-next-js?variant=44713720709320)* ([BPB Publications](https://bpbonline.com/), 2025) — Reviewed Chapters 17–18 (Performance Optimization & AWS Amplify) | [LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:7357424138774372352/)"
+      - "**2nd Place Office Hackathon** | Developed scalable RAG chatbot with vector embeddings, reducing false positives by **~40%** (QuestionPro Pvt Ltd). [LinkedIn Mention](https://www.linkedin.com/feed/update/urn:li:activity:7061599326224924672/)"
+      - "**World Rank 430** | [infytq_prep hackerrank contest](https://www.hackerrank.com/infytq-practice-sixphrase)"
+      - "**[HackerRank Problem Solving Certificate](https://www.hackerrank.com/certificates/fe72e3bb0c69)**"
+    
+    education:
+      - institution: "[University of Surrey](https://www.surrey.ac.uk/)"
+        area: Artificial Intelligence
+        degree: MSc
+        start_date: 2025-02
+        end_date: 2026-02
+        location: Guildford, Surrey, UK
+        highlights:
+          - "**Dissertation (Distinction)**: 'Optimising NHS Waiting Time Systems using Mixture of Agents (MoA)' — Built LangGraph multi-agent system with SimPy simulation demonstrating agentic AI architecture. Reduced wait times **58%** and boosted utilization **19%**."
+          - "Supervisor: [Dr. Xiatian Zhu](https://www.linkedin.com/in/xiatian-zhu-67167045), Senior Lecturer in People-Centred AI"
+          - "[QS World Ranking: **270**](https://www.topuniversities.com/universities/university-surrey) for Engineering and Technology (2025)"
+      
+      - institution: "[Jaypee University of Information Technology](https://www.juit.ac.in/)"
+        area: Computer Science and Engineering
+        degree: BTech
+        start_date: 2017-07
+        end_date: 2021-06
+        location: Solan, H.P., India
+        highlights:
+          - "**Capstone Projects (81.5% Overall)**: [Reflex Test](https://github.com/burrows99/Reflex-test) (85%); [Jarvis-AI](https://github.com/burrows99/Jarvis-AI) voice assistant (80%)"
+          - "**Final Year**: 82% | **UK Equivalent**: RQF Level 6 (2:1 Honours) | [Degree](https://drive.google.com/file/d/1oam18-6rVes0p0u5o9LEH4VbD8eHeJbm/view)"
+          - "[**NAAC A+ Accredited**](https://www.juit.ac.in/rankings-and-recognitions) institution"
+
+design:
+  theme: classic
+  page:
+    size: a4
+    top_margin: 0.2cm
+    bottom_margin: 0.2cm
+    left_margin: 0.2cm
+    right_margin: 0.2cm
+    show_footer: false
+    show_top_note: false
+  
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    headline: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    footer: rgb(100, 100, 100)
+  
+  typography:
+    line_spacing: 0.2em
+    alignment: justified
+    date_and_location_column_alignment: right
+    font_family: Source Sans 3
+    font_size:
+      body: 7.2pt
+      name: 18pt
+      headline: 7.2pt
+      connections: 7.2pt
+      section_titles: 9.5pt
+    small_caps:
+      section_titles: false
+    bold:
+      section_titles: true
+  
+  links:
+    underline: false
+    show_external_link_icon: false
+  
+  header:
+    alignment: center
+    space_below_name: 0.05cm
+    space_below_headline: 0.05cm
+    space_below_connections: 0.05cm
+    connections:
+      hyperlink: true
+      show_icons: true
+      separator: " | "
+      space_between_connections: 0.22cm
+  
+  section_titles:
+    type: with_partial_line
+    line_thickness: 0.5pt
+    space_above: 0.05cm
+    space_below: 0.02cm
+  
+  sections:
+    allow_page_break: true
+    space_between_text_based_entries: 0.05cm
+    space_between_regular_entries: 0.1cm
+  
+  entries:
+    date_and_location_width: 3.8cm
+    side_space: 0.22cm
+    space_between_columns: 0.12cm
+    allow_page_break: true
+    short_second_row: false
+    summary:
+      space_left: 0cm
+      space_above: 0cm
+    highlights:
+      bullet: "•"
+      nested_bullet: "◦"
+      space_left: 0.22cm
+      space_above: 0.02cm
+      space_between_items: 0.02cm
+      space_between_bullet_and_text: 0.16cm
+  
+  templates:
+    footer: "*Raunak Burrows — Page PAGE_NUMBER of TOTAL_PAGES*"
+
+locale:
+  language: english
+  last_updated: Last updated in
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  month_abbreviations:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+
+settings:
+  current_date: 2026-01-19
