@@ -147,7 +147,6 @@ cv:
     open_source_contributions:
       - "**Open-Source MCP Automation** | Built browser automation stack using LibreChat + Playwright-MCP with Node.js bridge (Docker-ready) — [GitHub](https://github.com/burrows99/Chat-Playwright) | [LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:7356798113082224642/)"
       - "**3D Solar System using Three.js** | Interactive 3D visualisation — [Live Demo](https://solar-system-engine.onrender.com/) | [GitHub](https://github.com/burrows99/solar_system)"
-      - "**Sentiment Analysis of Movie Reviews** | Full-stack ML application with FastAPI backend and React frontend — [Frontend](https://elastiq-frontend.onrender.com/) ([GitHub](https://github.com/burrows99/elastiq-frontend)) | [Backend](https://elastiq-backend.onrender.com/) ([GitHub](https://github.com/burrows99/elastiq-backend))"
       - "**Simulating Bacterial Infections in Python** | Contributed to open-source development with Python-based simulation, shared insights via [published article](https://www.linkedin.com/pulse/simulating-bacterial-infections-python-my-experience-surrey-burrows-xsuwf/?trackingId=Okbck%2FvgRxm0bm6e2Nc6Nw%3D%3D)"
 
 design:
