@@ -1,0 +1,256 @@
+cv:
+  name: Raunak Burrows
+  location: London, UK
+  email: raunakburrows@gmail.com
+  phone: "+44 7442124987"
+  website: https://github.com/burrows99
+  social_networks:
+    - network: LinkedIn
+      username: "[raunak-burrows](https://linkedin.com/in/raunak-burrows/)"
+    - network: GitHub
+      username: burrows99
+    - network: Leetcode
+      username: "[raunakburrows](https://leetcode.com/raunakburrows/)"
+  
+  sections:
+    summary:
+      - "Azure + AI Engineer with 5.5+ years building production-grade agentic AI systems and RAG pipelines. Proven track record deploying document intelligence solutions, LLM-driven workflows, and multi-agent orchestration architectures across healthcare, SaaS, and enterprise platforms. Deep expertise in Azure AI services (AI Search, OpenAI Service, Document Intelligence), prompt engineering, and scalable MLOps pipelines. Skilled in Python, Node.js, LangGraph/LangChain, and building context-aware AI applications with retrieval-augmented generation. London-based with full UK work rights (visa valid to June 2028). Available immediately — flexible to travel to Bristol weekly."
+    
+    technical_skills:
+      - label: Azure AI & Cloud Services
+        details: Azure AI Foundry, Azure OpenAI Service, Azure AI Search (Cognitive Search), Azure Document Intelligence, Azure Functions, Logic Apps, Azure Storage, Key Vault, Azure AD/Entra ID, MLOps pipelines
+      - label: AI & GenAI Development
+        details: RAG (Retrieval-Augmented Generation), LangGraph, LangChain, LlamaIndex, Prompt Engineering, LLM Fine-tuning (RLHF), Multi-Agent Systems, Knowledge Graphs (Cognee), Vector Embeddings (FAISS, Pinecone), OpenAI API, Ollama
+      - label: Document Processing & NLP
+        details: Custom document models, PDF/EDI parsing, Text extraction, Semantic chunking, Entity recognition, Document classification, Unstructured data processing
+      - label: Programming & Frameworks
+        details: Python (NumPy, Pandas, asyncio, FastAPI, Pytest), Node.js (Express.js, Nest.js), TypeScript/JavaScript, React (Next.js), SQL
+      - label: Databases & Vector Stores
+        details: Azure AI Search, Elasticsearch, Pinecone, MongoDB Atlas, PostgreSQL, MySQL, Redis
+      - label: DevOps & Infrastructure
+        details: Docker, Kubernetes, Azure Container Apps, GitHub Actions, CI/CD pipelines, Infrastructure as Code (Bicep/ARM), AWS (EC2, ECS, EKS)
+      - label: AI Evaluation & Monitoring
+        details: LLM observability, Trace setups, A/B testing frameworks, BLEU/ROUGE metrics, Human evaluation pipelines, Response quality scoring
+    
+    "EXPERIENCE":
+      - company: "[Aixolotl](https://aixolotl.com/) (Stealth Startup)"
+        position: AI Engineer
+        start_date: 2025-10
+        end_date: 2026-02
+        location: Switzerland (Remote)
+        highlights:
+          - "**Led Azure-focused RAG accelerator** from concept to production-ready PoC, integrating Azure AI Search, Azure OpenAI Service (GPT-4o, text-embedding-3-large), and Azure Document Intelligence for enterprise knowledge retrieval. Designed multi-backend architecture supporting 4 vector stores (Elasticsearch, Pinecone, MongoDB Atlas, Cognee knowledge graph) with user-scoped isolation."
+          - "**Architected LangGraph-based agentic system** with dual graphs (indexer + retrieval_graph) handling document ingestion, conversational memory, and semantic search. Implemented query refinement nodes, context-aware retrieval with chat history, and LLM orchestration achieving **40% reduction in false positives** via semantic understanding."
+          - "**Built production MLOps pipeline** with strict type checking (mypy --strict), automated testing (pytest + integration tests), and CI/CD via GitHub Actions. Established code quality standards (ruff linting, docstring enforcement) adopted across engineering team."
+          - "**Delivered AIxChat MVP** — chat-first AI platform generating context-aware business UIs (Kanban, Gantt, Data Grid) from natural language. Engineered Next.js + TypeScript frontend with Vercel AI SDK, dynamic layout engine, and live MCP integrations (Jira Cloud, GitHub) enabling two-way data synchronization."
+          - "**Designed prompt engineering framework** for multi-turn conversations with system prompt templates, query generation refinement, and response quality evaluation. Implemented trace setups and observability dashboards for monitoring LLM performance and token usage."
+          - "**Tech Stack**: Python (LangGraph, LangChain, FastAPI), Azure AI Search, Azure OpenAI, Cognee (knowledge graphs), Elasticsearch, Pinecone, Next.js, TypeScript, Docker, LangGraph Studio"
+      
+      - company: "[Turing](https://www.turing.com/)"
+        position: Data Scientist (AI/ML Focus)
+        start_date: 2024-06
+        end_date: 2025-06
+        location: United States (Remote)
+        highlights:
+          - "**Led supervised fine-tuning and RLHF** for Grok LLM (xAI) on production scale, enhancing response relevance by **25%** measured through human evaluation scores and automated metrics (BLEU/ROUGE/LlamaIndex eval). Designed evaluation pipelines comparing model generations across prompt variations."
+          - "**Architected prompt engineering workflows** for conversational AI, implementing zero-shot, few-shot, and chain-of-thought prompting strategies. Optimized system prompts to improve LLM output quality in document understanding and reasoning tasks."
+          - "**Built enterprise integration platform** connecting Salesforce (Apex, Flows, JSForce), DocuSign API, and Azure AD for automated document workflows. Deployed on AWS EC2 with monitoring via New Relic and Zendesk integration for support tracking."
+          - "**Tech Stack**: Python, Node.js, Ollama, LangChain, LlamaIndex, Salesforce, Azure AD, AWS EC2, Bitbucket, Jira"
+      
+      - company: "[The Kind Citizen](https://www.thekindcitizen.com/)"
+        position: Founding Engineer
+        start_date: 2024-01
+        end_date: 2024-03
+        location: India (Remote)
+        highlights:
+          - "Launched [events booking platform](https://www.thekindcitizen.com/) in **2 months** using Next.js + Vercel serverless architecture. Designed backend services handling **1000+ concurrent users** with ticket locking, concurrency control, and fault-tolerant workflows."
+      
+      - company: "[Sciometrix](https://www.sciometrix.com/)"
+        position: Software Engineer
+        start_date: 2023-07
+        end_date: 2025-04
+        location: Royal Oak, Michigan, US (Remote)
+        highlights:
+          - "**Engineered production RAG chatbot** for healthcare using Ollama, LlamaIndex, and vector embeddings (FAISS) to contextualize unstructured patient notes. Conducted rigorous A/B testing with 12 physicians, demonstrating **40% increase** in answer relevance via Likert-scale surveys and automated BLEU/ROUGE metrics. Implemented prompt engineering techniques to optimize clinical query responses."
+          - "**Built LLM-driven document processing pipeline** in FastAPI with custom claim summarization models, anomaly detection, and auto-triage workflows. Reduced manual ops tickets by processing 1000+ claims daily with **~99.7% accuracy**. Integrated OpenAI API with fallback to local models for cost optimization."
+          - "**Developed HIPAA-compliant EDI document intelligence** system processing X12 837/835/270/271 formats in Java + Spring Boot. Achieved **~30% reduction** in claim errors via automated validation and entity extraction, delivering **$1,400/month** cost savings. Demonstrated expertise in structured document parsing and healthcare data standards."
+          - "**Designed scalable Postgres architecture** with time-series partitioning, materialized views, and query optimization cutting analytics response times by **~40%**. Implemented Redis caching layer for high-read operational dashboards."
+          - "**Shipped React + Node.js dashboards** with real-time claim status tracking and billing KPIs. Productionized CI/CD: GitHub Actions → Docker → AWS EKS with per-PR preview environments and Playwright e2e tests."
+      
+      - company: "[QuestionPro Pvt. Ltd.](https://www.questionpro.com/)"
+        position: Full Stack Developer
+        start_date: 2022-08
+        end_date: 2023-07
+        location: "[Pune](https://www.google.com/maps/place/QuestionPro+Pvt+Ltd/data=!4m2!3m1!19sChIJo0O0ojy_wjsRVd69-e5YuFw) (Remote)"
+        highlights:
+          - "**Won 2nd place in office hackathon** building scalable RAG-based knowledge chatbot with vector embeddings (FAISS), reducing false positives by **~40%**. Implemented semantic search with document chunking, retrieval optimization, and context-aware response generation. [LinkedIn Mention](https://www.linkedin.com/feed/update/urn:li:activity:7061599326224924672/)"
+          - "**Built FastAPI microservices** for LLM-powered text summarization, sentiment scoring, and keyword extraction. Orchestrated with Node.js abstraction layer enabling seamless switching between OpenAI and internal models. Deployed to production serving [Genie AI](https://www.questionpro.com/help/genie-overview.html) product with 1M+ MAU."
+          - "**Architected prompt engineering pipeline** for survey analysis, implementing dynamic prompt templates, few-shot learning examples, and response validation. Improved AI feature adoption by **45%** measured via Zendesk ticket reduction."
+          - "**Modernized core dashboards to Next.js (SSR/ISR)** + Tailwind/Shadcn UI, improving Lighthouse scores and user satisfaction (NPS: 3.8→4.6/5). Built React + Spring Boot analytics platform with real-time drilldowns."
+      
+      - company: "[Infosys Ltd.](https://www.infosys.com/)"
+        position: Specialist Programmer
+        start_date: 2021-09
+        end_date: 2022-08
+        location: Bangalore (Remote)
+        highlights:
+          - "Built high-performance Java microservices for [eBay's retail platform](https://www.infosys.com/) using coroutines and stream processing, achieving **2× throughput** and reducing startup latency from **4ms→2ms**. Profiled with JFR/JConsole for optimization."
+          - "Owned 'eBay Bagging Service' CI/CD pipeline with GitHub Actions & Docker, maintaining **99.9% uptime**. Raised test coverage **65%→90%** with JUnit 5, Mockito, JaCoCo."
+    
+    "EXPERIENCE (INTERNSHIPS)":
+      - company: "[Google Summer of Code](https://summerofcode.withgoogle.com/)"
+        position: Contributor (Mentored by Google Engineer)
+        start_date: 2020-06
+        end_date: 2020-08
+        location: Bangalore (Remote)
+        highlights:
+          - "Extended 3D geometry processing modules in **C/C++** for BRL-CAD, improving rendering performance. [View Certificate](https://drive.google.com/file/d/1NKWErBCvjpk7keSzCEX-VcMk7XYlh8g8/view?usp=sharing)"
+    
+    key_projects:
+      - "**Azure RAG Accelerator (Aixolotl, 2025)** — Production-ready LangGraph application with Azure AI Search, Azure OpenAI Service integration, and knowledge graph layer (Cognee). Features multi-backend vector store abstraction (Elasticsearch, Pinecone, MongoDB), user-scoped data isolation, and conversational memory. Implemented custom document ingestion pipeline with metadata stamping, semantic chunking, and retrieval optimization. Full MLOps setup with Docker Compose, Bicep/ARM templates, CI/CD, and comprehensive test coverage. **Status:** Functional PoC delivered with Azure migration templates."
+      - "**MCP Server Integration (Aixolotl, 2025)** — Built Model Context Protocol (MCP) connectors for Jira Cloud and GitHub enabling real-time data synchronization. Implemented OAuth flows, API pagination, metadata filtering, and error handling for enterprise-scale deployments. Integrated with AIxChat's dynamic canvas for live business UI generation."
+      - "**NHS Triage Optimization (MSc Dissertation, 2025)** — **Distinction-awarded** project implementing Mixture of Agents (MoA) architecture with LangGraph + SimPy. Built multi-agent system using synthetic FHIR data, reducing doctor wait times by **58%** and boosting resource utilization by **19%**. Demonstrated agentic AI in privacy-constrained healthcare environments."
+      - "**Healthcare Document Intelligence (Sciometrix, 2024)** — HIPAA-compliant X12 EDI processing pipeline with custom models for claim summarization, anomaly detection, and entity extraction. RAG-based chatbot contextualizing patient notes with vector search and LLM reasoning."
+      - "**Open-Source MCP Automation** — Built browser automation stack using LibreChat + Playwright-MCP with Node.js bridge (Docker-ready). [GitHub](https://github.com/burrows99/Chat-Playwright) | [LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:7356798113082224642/)"
+    
+    awards_and_certifications:
+      - "**Technical Reviewer** | *[3D Web Development with Three.js & Next.js](https://bpbonline.com/products/3d-web-development-with-three-js-and-next-js?variant=44713720709320)* ([BPB Publications](https://bpbonline.com/), 2025) — Reviewed Chapters 17–18 (Performance Optimization & AWS Amplify) | [LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:7357424138774372352/)"
+      - "**[AIIMS Raipur](https://www.aiimsraipur.edu.in/) CME** | Awarded 2 credit hours for participating in Online CME on Artificial Intelligence in Healthcare, recognised by the Chhattisgarh Medical Council. [View Certificate](https://drive.google.com/file/d/1sJHi7-LEjN0rx09IjOorgiQAzARqDw4P/view)"
+      - "**2nd Place Office Hackathon** | Developed scalable RAG chatbot with vector embeddings, reducing false positives by **~40%** (QuestionPro Pvt Ltd). [LinkedIn Mention](https://www.linkedin.com/feed/update/urn:li:activity:7061599326224924672/)"
+      - "**World Rank 430** | [infytq_prep hackerrank contest](https://www.hackerrank.com/infytq-practice-sixphrase)"
+      - "**[HackerRank Problem Solving Certificate](https://www.hackerrank.com/certificates/fe72e3bb0c69)**"
+    
+    education:
+      - institution: "[University of Surrey](https://www.surrey.ac.uk/)"
+        area: Artificial Intelligence
+        degree: MSc
+        start_date: 2025-02
+        end_date: 2026-02
+        location: Guildford, Surrey, UK
+        highlights:
+          - "**Dissertation (Distinction)**: 'Optimising NHS Waiting Time Systems using Mixture of Agents (MoA)' — Built LangGraph-based multi-agent system with SimPy simulation, demonstrating agentic AI architecture, memory management, trace setups, and evaluation pipelines. Reduced wait times **58%** and boosted utilization **19%**."
+          - "Supervisor: [Dr. Xiatian Zhu](https://www.linkedin.com/in/xiatian-zhu-67167045), Senior Lecturer in People-Centred AI"
+          - "[QS World Ranking: **270**](https://www.topuniversities.com/universities/university-surrey) for Engineering and Technology (2025)"
+      
+      - institution: "[Jaypee University of Information Technology](https://www.juit.ac.in/)"
+        area: Computer Science and Engineering
+        degree: BTech
+        start_date: 2017-07
+        end_date: 2021-06
+        location: Solan, H.P., India
+        highlights:
+          - "**Capstone Projects (81.5% Overall)**: [Reflex Test](https://github.com/burrows99/Reflex-test) (85%); [Jarvis-AI](https://github.com/burrows99/Jarvis-AI) voice assistant (80%)"
+          - "**Final Year**: 82% | **UK Equivalent**: RQF Level 6 (2:1 Honours) | [Degree](https://drive.google.com/file/d/1oam18-6rVes0p0u5o9LEH4VbD8eHeJbm/view)"
+          - "[**NAAC A+ Accredited**](https://www.juit.ac.in/rankings-and-recognitions) institution"
+    
+    academic_highlights:
+      - "**MSc Dissertation (Distinction)** — Recognized for applying LLM-driven multi-agent AI in NHS triage routing with privacy constraints. Demonstrated expertise in agent architectures, orchestration, memory management, and evaluation pipelines."
+      - "**Strong STEM foundation** — **85.4%** in 12th CBSE (UK A-Level equivalent: AAAA) including Mathematics (88%), Physics (89%), Computer Science (81%). [Certificate](https://drive.google.com/file/d/1P5O4wUi1EOmlxBjI9EyUuRhPeSHD_7ZY/view)"
+      - "**8.0 CGPA** in 10th CBSE (UK GCSE equivalent: A/A⁺). [Certificate](https://drive.google.com/file/d/1Er4Xx8Kq_pB38X3aZjh5Nc9xO2nprPGs/view)"
+
+design:
+  theme: classic
+  page:
+    size: a4
+    top_margin: 0.2cm
+    bottom_margin: 0.2cm
+    left_margin: 0.2cm
+    right_margin: 0.2cm
+    show_footer: false
+    show_top_note: false
+  
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    headline: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    footer: rgb(100, 100, 100)
+  
+  typography:
+    line_spacing: 0.2em
+    alignment: justified
+    date_and_location_column_alignment: right
+    font_family: Source Sans 3
+    font_size:
+      body: 7.2pt
+      name: 18pt
+      headline: 7.2pt
+      connections: 7.2pt
+      section_titles: 9.5pt
+    small_caps:
+      section_titles: false
+    bold:
+      section_titles: true
+  
+  links:
+    underline: false
+    show_external_link_icon: false
+  
+  header:
+    alignment: center
+    space_below_name: 0.05cm
+    space_below_headline: 0.05cm
+    space_below_connections: 0.05cm
+    connections:
+      hyperlink: true
+      show_icons: true
+      separator: " | "
+      space_between_connections: 0.22cm
+  
+  section_titles:
+    type: with_partial_line
+    line_thickness: 0.5pt
+    space_above: 0.05cm
+    space_below: 0.02cm
+  
+  sections:
+    allow_page_break: true
+    space_between_text_based_entries: 0.05cm
+    space_between_regular_entries: 0.1cm
+  
+  entries:
+    date_and_location_width: 3.8cm
+    side_space: 0.22cm
+    space_between_columns: 0.12cm
+    allow_page_break: true
+    short_second_row: false
+    summary:
+      space_left: 0cm
+      space_above: 0cm
+    highlights:
+      bullet: "•"
+      nested_bullet: "◦"
+      space_left: 0.22cm
+      space_above: 0.02cm
+      space_between_items: 0.02cm
+      space_between_bullet_and_text: 0.16cm
+  
+  templates:
+    footer: "*Raunak Burrows — Page PAGE_NUMBER of TOTAL_PAGES*"
+
+locale:
+  language: english
+  last_updated: Last updated in
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  month_abbreviations:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+
+settings:
+  current_date: 2026-01-19
