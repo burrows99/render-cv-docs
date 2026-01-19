@@ -1,0 +1,258 @@
+cv:
+  name: Raunak Burrows
+  location: London, UK
+  email: raunakburrows@gmail.com
+  phone: "+44 7442124987"
+  website: https://github.com/burrows99
+  social_networks:
+    - network: LinkedIn
+      username: "[raunak-burrows](https://linkedin.com/in/raunak-burrows/)"
+    - network: GitHub
+      username: burrows99
+    - network: Leetcode
+      username: "[raunakburrows](https://leetcode.com/raunakburrows/)"
+  
+  sections:
+    summary:
+      - "AI-driven Senior Software Engineer with 5.5+ years of experience in US, India, and UK-based teams bridging product and infrastructure. I design and scale systems that take LLM prototypes to production. My background spans full-stack engineering, data-intensive backend design, and applied machine learning, with a focus on reliability and measurable business impact. I thrive in fast-moving environments where AI, product, and cloud engineering intersect — building tools that are explainable, deployable, and commercially valuable. London, UK — Full right to work in the UK (visa valid to June 2028). Available from 1 Feb 2026."
+    
+    technical_skills:
+      - label: Programming Languages
+        details: Javascript, Python (NumPy, Pandas, asyncio), Java
+      - label: AI Tools
+        details: Ollama, OpenAI API, LangFlow, LangGraph, LlamaIndex, Hugging Face Transformers, FAISS, MCP Servers, LLM Fine-tuning, PyTorch
+      - label: Frontend
+        details: React (Redux | Next.js), HTML, CSS, TailwindCSS, Shadcn
+      - label: Backend
+        details: Node.js (Express.js | Nest.js), SpringBoot, FastAPI
+      - label: Testing
+        details: Pytest, Jest/Vitest, React Testing Library, Playwright (e2e). Docs - design docs/RFCs in ADR format
+      - label: Databases
+        details: MySQL, PostgreSQL, MongoDB
+      - label: DevOps
+        details: Docker, Kubernetes, AWS (EC2, ECS, EKS, App Runner), Vercel, GitHub Actions
+      - label: Other
+        details: Salesforce (Apex, Flows, JSForce), Azure AD
+    
+    "EXPERIENCE (FULL TIME)":
+      - company: "[Sciometrix](https://www.sciometrix.com/)"
+        position: Software Engineer
+        start_date: 2023-07
+        end_date: 2025-04
+        location: Royal Oak, Michigan, US (Remote)
+        highlights:
+          - "Engineered **HIPAA-compliant X12 EDI flows** (837 submission, 835 remits, 270/271 eligibility) in Java + Spring Boot to replace AdvancedMD; delivered **~$1,400/month** cost reduction and **~30%** fewer claim-processing errors measured in Jira QA dashboards. [View Relieving Letter](https://drive.google.com/file/d/1-68wa2SFNc1kZ4ZqN3RevyH1IIw8DSg1/view?usp=sharing)"
+          - "Developed a **RAG-based patient info chatbot** using Ollama and LlamaIndex, contextualizing unstructured health notes to answer patient history queries. Conducted A/B testing with 12 physicians, showing a **40% increase** in perceived answer relevance, measured via Likert-scale surveys and Zendesk query success rates."
+          - "Built **LLM-backed claim summarisation / anomaly-detection APIs** in FastAPI, auto-triaging billing errors to ops; reduced manual ticket volume over 2 release cycles."
+          - "Designed a **Postgres schema** for time-series claim events using partitions + materialized views, cutting analytics/report queries by **~40%**."
+          - "Shipped React + Tailwind operational dashboards (real-time claim status, billing KPIs), fronted by Node.js BFF and cached in Redis for high-read panels."
+          - "Productionised CI/CD: GitHub Actions → Docker images → AWS EKS with per-PR preview + Playwright smoke tests → lower CFR/MTTR and safer healthcare releases."
+      
+      - company: "[QuestionPro Pvt. Ltd.](https://www.questionpro.com/)"
+        position: Full Stack Developer
+        start_date: 2022-08
+        end_date: 2023-07
+        location: "[Pune](https://www.google.com/maps/place/QuestionPro+Pvt+Ltd/data=!4m2!3m1!19sChIJo0O0ojy_wjsRVd69-e5YuFw) (Remote)"
+        highlights:
+          - "Modernised core dashboards to **Next.js (SSR/ISR)** + shared Tailwind/Shadcn UI, improving initial load and Lighthouse scores and cutting Zendesk UI tickets by **~45%**. [View Relieving Letter](https://drive.google.com/file/d/1ChjryCJHe-3Ys25Nx1F5otmmPbVx6yQ9/view?usp=sharing)"
+          - "Built **FastAPI microservices** for LLM-based text summarisation, sentiment scoring and keyword extraction; orchestrated with a Node.js layer to swap OpenAI vs internal models. Used in [Genie AI](https://www.questionpro.com/help/genie-overview.html) product."
+          - "Delivered a React + Spring Boot survey analytics dashboard with drilldowns; post-launch NPS rose from **3.8→4.6/5** on [1M+ MAU fleet](https://www.questionpro.com/)."
+          - "Created onboarding/webhook/CSV ingestion APIs (Node.js) for 100+ enterprise customers with **~99.7% success**, monitored via internal Metabase dashboards."
+      
+      - company: "[Infosys Ltd.](https://www.infosys.com/)"
+        position: Specialist Programmer
+        start_date: 2021-09
+        end_date: 2022-08
+        location: Bangalore (Remote)
+        highlights:
+          - "Built high-performance Java microservices for [eBay's retail platform](https://www.infosys.com/), using coroutines and stream batching to achieve **2× throughput** and cut startup latency (**4→2 ms**) via JVM profiling (JFR, JConsole). [View Relieving Letter](https://drive.google.com/file/d/1PYkawHmZFJp9lWupg36qocblbz7NF_7X/view)"
+          - "Owned the 'eBay Bagging Service' in Java + Spring Boot and streamlined CI/CD with GitHub Actions & Docker, ensuring **99.9% uptime** across environments."
+          - "Raised test coverage **65%→90%** with JUnit 5, Mockito, JaCoCo, mentoring peers in PR reviews and aligning benchmarks & SLAs with eBay standards."
+    
+    "EXPERIENCE (FREELANCE)":
+      - company: "[Aixolotl](https://aixolotl.com/) (Stealth Startup)"
+        position: AI Engineer
+        start_date: 2025-10
+        end_date: 2026-02
+        location: Switzerland (Remote)
+        highlights:
+          - "Leading the MVP of **[AIxChat](https://aixolotl.com/)**, a chat-first AI platform that generates context-aware business UIs (Kanban, Grid, Timeline) from natural-language prompts."
+          - "Designed the Next.js + TypeScript architecture, AI orchestration layer (Vercel AI SDK + MCP), and dynamic layout engine linking live data from Jira and GitHub."
+      
+      - company: "[Turing](https://www.turing.com/)"
+        position: Data Scientist
+        start_date: 2024-06
+        end_date: 2025-06
+        location: United States (Remote)
+        highlights:
+          - "Conducted **supervised fine-tuning** and **RLHF** for [Grok LLM](https://grok.com/) on X, enhancing response relevance by **25%** (measured through human evaluation scores and automated relevance metrics via BLEU/ROUGE/LlamaIndex eval). [View Contract](https://drive.google.com/file/d/1CsFCEBgWxAJwdg3Se47wy9YY5Vkaoe1p/view?usp=sharing)"
+          - "**Tech Stack**: Node.js, Salesforce (Apex, Flows), DocuSign API, AWS EC2, Azure AD, Bitbucket, Jira, Zendesk, New Relic, Ollama, LangChain, LlamaIndex"
+      
+      - company: "[The Kind Citizen](https://www.thekindcitizen.com/)"
+        position: Founding Engineer
+        start_date: 2024-01
+        end_date: 2024-03
+        location: India (Remote)
+        highlights:
+          - "Collaborated with the founder to launch an [events booking website](https://www.thekindcitizen.com/) in **2 months**, leveraging Vercel serverless deployments for maximum cost efficiency."
+          - "Built frontend and backend from scratch, implementing reusable UI components and a responsive design system adopted across all modules."
+          - "Designed backend services to handle event management and ticketing for **1000+ users**, implementing industry-standard practices such as ticket locking during booking, concurrency control, input validation, and fault-tolerant workflows."
+    
+    "EXPERIENCE (INTERNSHIPS)":
+      - company: "[Google Summer of Code](https://summerofcode.withgoogle.com/)"
+        position: Contributor (Mentored by Google Engineer)
+        start_date: 2020-06
+        end_date: 2020-08
+        location: Bangalore (Remote)
+        highlights:
+          - "Extended 3D geometry processing and visualisation modules in **C/C++** for BRL-CAD. [View Certificate](https://drive.google.com/file/d/1NKWErBCvjpk7keSzCEX-VcMk7XYlh8g8/view?usp=sharing)"
+          - "Improved rendering performance and mesh quality and had code merged to the main repo via [community reviews](https://summerofcode.withgoogle.com/)."
+    
+    awards_and_certifications:
+      - "**Technical Reviewer** | *[3D Web Development with Three.js & Next.js](https://bpbonline.com/products/3d-web-development-with-three-js-and-next-js?variant=44713720709320)* ([BPB Publications](https://bpbonline.com/), 2025) — Reviewed Chapters 17–18 (Performance Optimization & AWS Amplify) | [LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:7357424138774372352/) | [Preview](https://drive.google.com/file/d/1PC_kQhn_xm5hQOiE-hvZCWbi-pGZgmDl/view)"
+      - "**[AIIMS Raipur](https://www.aiimsraipur.edu.in/) CME** | Awarded 2 credit hours for participating in Online CME on Artificial Intelligence in Healthcare, recognised by the Chhattisgarh Medical Council. [View Certificate](https://drive.google.com/file/d/1sJHi7-LEjN0rx09IjOorgiQAzARqDw4P/view)"
+      - "**2nd Place Office Hackathon** | Developed a scalable knowledge chatbot using RAG and vector embeddings, reducing false positives by **~40%** (QuestionPro Pvt Ltd). [LinkedIn Mention](https://www.linkedin.com/feed/update/urn:li:activity:7061599326224924672/) | [Official Document](https://drive.google.com/file/d/1sJHi7-LEjN0rx09IjOorgiQAzARqDw4P/view)"
+      - "**World Rank 430** | [infytq_prep hackerrank contest](https://www.hackerrank.com/infytq-practice-sixphrase)"
+      - "**[HackerRank Problem Solving Certificate](https://www.hackerrank.com/certificates/fe72e3bb0c69)**"
+    
+    education:
+      - institution: "[University of Surrey](https://www.surrey.ac.uk/)"
+        area: Artificial Intelligence
+        degree: MSc
+        start_date: 2025-02
+        end_date: 2026-02
+        location: Guildford, Surrey, UK
+        highlights:
+          - "**Dissertation (Distinction)**: 'Optimising NHS Waiting Time Systems using Mixture of Agents (MoA)' — Built LangGraph + SimPy-based routing system using synthetic FHIR data, reducing doctor wait times by **58%** and boosting resource utilisation by **19%**. Commended for clarity of writing, people-centred design, strong system architecture, and first-class simulation results."
+          - "Supervisor: [Dr. Xiatian Zhu](https://www.linkedin.com/in/xiatian-zhu-67167045), Senior Lecturer in People-Centred AI, [University of Surrey](https://www.surrey.ac.uk/)"
+          - "[QS World Ranking: **270**](https://www.topuniversities.com/universities/university-surrey) for Engineering and Technology (2025)"
+      
+      - institution: "[Jaypee University of Information Technology](https://www.juit.ac.in/)"
+        area: Computer Science and Engineering
+        degree: BTech
+        start_date: 2017-07
+        end_date: 2021-06
+        location: Solan, H.P., India
+        highlights:
+          - "**University Capstone Projects (Overall 81.5%)**: [Reflex Test](https://github.com/burrows99/Reflex-test) (3rd year with 85%); [Jarvis-AI](https://github.com/burrows99/Jarvis-AI) (4th year with 80%) | [Project Report](https://drive.google.com/file/d/1N4pLq_cZz4LuImrlfaOREMFqBmG1tUkV/view)"
+          - "**Final Year Percentage**: 82%"
+          - "**UK Equivalent**: RQF Level 6 (Bachelor's Degree with Honours equivalent — 2:1) | [Degree](https://drive.google.com/file/d/1oam18-6rVes0p0u5o9LEH4VbD8eHeJbm/view)"
+          - "[**NAAC A+ Accredited**](https://www.juit.ac.in/rankings-and-recognitions) institution"
+    
+    academic_highlights:
+      - "**MSc Dissertation (University of Surrey, 2025)** — Awarded **Distinction** for 'Optimising NHS Waiting Time Systems using Mixture of Agents (MoA)'. Commended for clarity of writing, people-centred design, strong system architecture, and first-class simulation results. Recognised for applying LLM-driven AI in NHS triage routing under privacy constraints."
+      - "**Strong STEM foundation** with **85.4%** in 12th CBSE (equivalent to UK A-Levels with grades AAAA) — including Mathematics (88%), Physics (89%), Chemistry (81%), Computer Science (81%), and English (88%). [View Certificate](https://drive.google.com/file/d/1P5O4wUi1EOmlxBjI9EyUuRhPeSHD_7ZY/view)"
+      - "Secured **8.0 CGPA** in 10th CBSE, equivalent to UK GCSEs with grades A/A⁺ in core subjects. [View Certificate](https://drive.google.com/file/d/1Er4Xx8Kq_pB38X3aZjh5Nc9xO2nprPGs/view)"
+    
+    open_source_contributions:
+      - "**Open-Source MCP Automation** | Built browser automation stack using LibreChat + Playwright-MCP with Node.js bridge (Docker-ready) — [GitHub](https://github.com/burrows99/Chat-Playwright) | [LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:7356798113082224642/)"
+      - "**3D Solar System using Three.js** | Interactive 3D visualisation — [Live Demo](https://solar-system-engine.onrender.com/) | [GitHub](https://github.com/burrows99/solar_system)"
+      - "**Sentiment Analysis of Movie Reviews** | Full-stack ML application with FastAPI backend and React frontend — [Frontend](https://elastiq-frontend.onrender.com/) ([GitHub](https://github.com/burrows99/elastiq-frontend)) | [Backend](https://elastiq-backend.onrender.com/) ([GitHub](https://github.com/burrows99/elastiq-backend))"
+      - "**Simulating Bacterial Infections in Python** | Contributed to open-source development with Python-based simulation, shared insights via [published article](https://www.linkedin.com/pulse/simulating-bacterial-infections-python-my-experience-surrey-burrows-xsuwf/?trackingId=Okbck%2FvgRxm0bm6e2Nc6Nw%3D%3D)"
+
+design:
+  theme: classic
+  page:
+    size: a4
+    top_margin: 0.25cm
+    bottom_margin: 0.25cm
+    left_margin: 0.25cm
+    right_margin: 0.25cm
+    show_footer: false
+    show_top_note: false
+  
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    headline: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    footer: rgb(100, 100, 100)
+  
+  typography:
+    line_spacing: 0.3em
+    alignment: justified
+    date_and_location_column_alignment: right
+    font_family: Source Sans 3
+    font_size:
+      body: 7.8pt
+      name: 19pt
+      headline: 7.8pt
+      connections: 7.8pt
+      section_titles: 10pt
+    small_caps:
+      section_titles: false
+    bold:
+      section_titles: true
+  
+  links:
+    underline: false
+    show_external_link_icon: false
+  
+  header:
+    alignment: center
+    space_below_name: 0.1cm
+    space_below_headline: 0.1cm
+    space_below_connections: 0.1cm
+    connections:
+      hyperlink: true
+      show_icons: true
+      separator: " | "
+      space_between_connections: 0.22cm
+  
+  section_titles:
+    type: with_partial_line
+    line_thickness: 0.5pt
+    space_above: 0.08cm
+    space_below: 0.025cm
+  
+  sections:
+    allow_page_break: true
+    space_between_text_based_entries: 0.08cm
+    space_between_regular_entries: 0.14cm
+  
+  entries:
+    date_and_location_width: 3.8cm
+    side_space: 0.22cm
+    space_between_columns: 0.12cm
+    allow_page_break: true
+    short_second_row: false
+    summary:
+      space_left: 0cm
+      space_above: 0cm
+    highlights:
+      bullet: "•"
+      nested_bullet: "◦"
+      space_left: 0.22cm
+      space_above: 0.025cm
+      space_between_items: 0.025cm
+      space_between_bullet_and_text: 0.16cm
+  
+  templates:
+    footer: "*Raunak Burrows — Page PAGE_NUMBER of TOTAL_PAGES*"
+
+locale:
+  language: english
+  last_updated: Last updated in
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  month_abbreviations:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+
+settings:
+  current_date: 2026-01-18
